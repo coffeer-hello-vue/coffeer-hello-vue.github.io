@@ -28,8 +28,8 @@ npm run dev
 npm run build
 ```
 
-dev url
+# DEV url
 https://coffeer-hello.web.app/
 
-prd url
+# PRD url
 https://coffeer-hello-vue.github.io/
