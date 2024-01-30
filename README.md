@@ -36,7 +36,7 @@ https://coffeer-hello-vue.github.io/
 
 
 # STG 
-|STG|BRANCH|URL|brand|
+|STG|BRANCH|URL|Deploy|
 |------|---|---|-----|
-DEV| 0.1.0/dist2docs  |https://coffeer-hello.web.app/
-PR| 0.1.0/dist2docs  |https://coffeer-hello-vue.github.io/
+DEV| 0.1.0/dist2docs  |https://coffeer-hello.web.app/ | Firebase
+PR| 0.1.0/dist2docs  |https://coffeer-hello-vue.github.io/ | Github
