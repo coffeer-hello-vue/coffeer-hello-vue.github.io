@@ -38,5 +38,5 @@ https://coffeer-hello-vue.github.io/
 
 |STG|BRANCH|URL|
 |------|---|---|
-DEV|   |https://coffeer-hello.web.app/
-PR|   |https://coffeer-hello-vue.github.io/
+DEV| 0.1.0/dist2docs  |https://coffeer-hello.web.app/
+PR| 0.1.0/dist2docs  |https://coffeer-hello-vue.github.io/
