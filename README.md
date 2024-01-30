@@ -33,3 +33,10 @@ https://coffeer-hello.web.app/
 
 # PRD url
 https://coffeer-hello-vue.github.io/
+
+
+
+|STG|BRANCH|URL|
+|------|---|---|
+DEV|   |https://coffeer-hello.web.app/
+PR|   |https://coffeer-hello-vue.github.io/
