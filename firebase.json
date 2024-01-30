@@ -1,0 +1,11 @@
+{
+  "hosting": {
+"site": "coffeer-hello",
+    "public": "docs",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
