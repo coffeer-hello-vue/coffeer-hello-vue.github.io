@@ -27,3 +27,16 @@ npm run dev
 ```sh
 npm run build
 ```
+
+# DEV url (firebase)
+https://coffeer-hello.web.app/
+
+# PRD url (github)
+https://coffeer-hello-vue.github.io/
+
+
+# STG 
+|STG|BRANCH|URL|Deploy|
+|------|---|---|-----|
+DEV| 0.1.0/dist2docs  |https://coffeer-hello.web.app/ | Firebase
+PR| 0.1.0/dist2docs  |https://coffeer-hello-vue.github.io/ | Github
