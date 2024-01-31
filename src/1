@@ -1,11 +1,11 @@
 <script setup>
 import {ref} from 'vue'
-const message = ref({name: "전승민", age: "27"});
-const name = "전승민"
+const message = ref("hello world!");
+
 </script>
 
 
 <template>
 	<h1>{{ message}}</h1>
-	<h1>{{name}}</h1>
+
 </template>
