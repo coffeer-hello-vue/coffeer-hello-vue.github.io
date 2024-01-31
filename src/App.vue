@@ -1,11 +1,23 @@
 <script setup>
-import {ref} from 'vue'
-const message = ref({name: "전승민", age: "27"});
-const name = "전승민"
+import {ref} from 'vue';
+
+const awesome = ref(true);
+
+function toogleAwesome(){
+
+	awesome.value = !awesome.value
+}
+
+function isAwesome(){
+	return	awesome.value
+}
 </script>
 
-
 <template>
-	<h1>{{ message}}</h1>
-	<h1>{{name}}</h1>
+
+	<button @click='toogleAwesome()'>toggle</button>
+
+<h1 v-if="isAwesome()"> Vue is awesome! </h1>
+<h1 v-else> oh no 😥</h1>
+
 </template>
