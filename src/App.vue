@@ -1,21 +1,17 @@
 <script setup>
 import {ref} from 'vue'
-import category from "@/assets/category.json"
+import variable from "@/assets/variable.json"
 
 
-const categories = category;
+const variables = variable;
 
 
 </script>
 
 
 <template>
-<li v-for="a in categories">
-	{{a.name}}----{{a.code}}
-
+<li v-for="a in variables">
+	{{a}}
 </li>
-<li v-for= "a in categories">
-</li>
-
 
 </template>
