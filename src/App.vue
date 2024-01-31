@@ -8,10 +8,10 @@ const variables = variable;
 
 </script>
 
-
 <template>
-<li v-for="a in variables">
+<template v-for="(a) in variables">
+<li v-if="a.objectVar">
 	{{a}}
 </li>
-
+</template>
 </template>
