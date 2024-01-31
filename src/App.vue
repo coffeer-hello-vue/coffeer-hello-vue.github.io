@@ -1,23 +1,19 @@
 <script setup>
-import {ref} from 'vue';
+import {ref} from 'vue'
+import category from "@/assets/category.json"
 
-const awesome = ref(true);
 
-function toogleAwesome(){
+const categories = category;
 
-	awesome.value = !awesome.value
-}
 
-function isAwesome(){
-	return	awesome.value
-}
 </script>
 
+
 <template>
+<li v-for="a in categories">
+	{{a.name}}-{{a.code}}
+</li>
 
-	<button @click='toogleAwesome()'>toggle</button>
 
-<h1 v-if="isAwesome()"> Vue is awesome! </h1>
-<h1 v-else> oh no 😥</h1>
 
 </template>
