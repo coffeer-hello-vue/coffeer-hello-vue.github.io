@@ -12,8 +12,10 @@ const categories = category;
 <template>
 <li v-for="a in categories">
 	{{a.name}}----{{a.code}}
-</li>
 
+</li>
+<li v-for= "a in categories">
+</li>
 
 
 </template>
