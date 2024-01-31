@@ -11,7 +11,7 @@ const categories = category;
 
 <template>
 <li v-for="a in categories">
-	{{a.name}}-{{a.code}}
+	{{a.name}}----{{a.code}}
 </li>
 
 
