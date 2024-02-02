@@ -1,0 +1,21 @@
+<script setup>
+import {reactive, computed, ref} from 'vue'
+
+const author = ref({
+	name : 'john doe'
+	, books : [1,2,3]
+	});
+
+const check = computed( () => { return author.value.books.length >2 ? 'yes' : 'no' });
+const state = reactive(() =>{ author.books});
+
+</script>
+
+<template>
+
+        <span> 🧔: </span>
+	<span>{{author.books.length > 2 ? 'yes':'no'}} </span>
+	<div> computed ⬇</div>
+        <span> {{check}} </span>
+	<p> {{state}} </p>
+</template>

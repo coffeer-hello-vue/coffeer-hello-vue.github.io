@@ -1,0 +1,19 @@
+<script setup>
+import {reactive, computed, ref} from 'vue'
+
+const author = ref({
+        name: 'John Doe', books: [1,2,3]})
+
+const pbm = computed( () => { 
+				return author.value.books.length > 2 ? 'yes' : 'no'				} );
+
+
+</script>
+
+<template>
+
+        <p> 🧔:{{pbm}} </p>
+	<p>computed ⬇ </p>
+        <span> {{ pbm}} </span>
+
+</template>
